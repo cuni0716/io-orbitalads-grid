@@ -11,4 +11,4 @@
 `npm`
 
 ### TODO:
-* Persist redux state on localStorage
+* For a major grid we need to refactor the compute function for a better performance but it's ok for now
