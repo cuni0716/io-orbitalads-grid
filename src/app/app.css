@@ -1,0 +1,38 @@
+.input-field input[type=text]:focus+label {
+    color: #1a237e !important;
+}
+
+.input-field input[type=number]:focus+label {
+    color: #1a237e !important;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #1a237e !important;
+    box-shadow: 0 1px 0 0 #1a237e !important;
+}
+
+.input-field input[type=number]:focus {
+    border-bottom: 1px solid #1a237e !important;
+    box-shadow: 0 1px 0 0 #1a237e !important;
+}
+
+.app-container {
+  margin-top: 40px;
+  min-height: calc(100vh - 64px - 165px - 40px)
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #EEEEEE;
+  margin: 0;
+  padding: 0;
+}
+
+.-selected {
+  background-color: black;
+}
